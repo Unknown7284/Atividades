@@ -1,0 +1,28 @@
+<div class="container">
+  <form action="/users/save" method="post">
+
+    <div class="row">
+      <div class="col-6">
+        <label>Nome:</label>
+        <input type="text" class="form-control" name="name" id="name" />
+      </div>
+      <div class="col-3">
+        <label>Data Nasc:</label>
+        <input type="date" class="form-control" name="date" id="date" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-5">
+        <label>E-mail:</label>
+        <input type="email" class="form-control" name="email" />
+      </div>
+      {{! PARTE DO FUNCIONÁRIO }}
+    </div>
+    <br />
+
+    <button type="submit" class="btn btn-warning">Enviar</button>
+
+  </form>
+
+</div>
